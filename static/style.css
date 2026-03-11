@@ -1,0 +1,349 @@
+/* FOR HERO CSS ONLY  */
+        /* slider animation css part for hero*/
+
+
+        .brands{
+
+                text-align: center;
+                padding: 60px 20px;
+                color: #27ae60;
+                background-color: aquaSS;
+
+        }
+        .brand-row{
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                flex-wrap: wrap;
+                margin-top: 30px;
+               
+
+        }
+        .brand-row img{
+
+                width: 100px;
+                filter: grayscale(100%);
+                transition: 03.s;
+                
+                margin: auto;
+                
+               
+
+        }
+
+        .brands-row img:hover{
+                filter: grayscale(0%);
+                transform: scale(1.1);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        body{
+                background-color: #f4f4f4;
+                margin-top: 80px;
+                font-family: Arial;
+        }
+        h1  {
+                color: white;
+                font-size: 40px;
+                margin-bottom: 10px;
+
+        }   
+        p   {
+
+                font-size: 18px;
+                color: #ddd;
+                font-size: 18px;
+        }
+         a   {
+                display: inline-block;
+                margin-top: 20px;
+                background-color: #27ae60;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+        }
+        a:hover{
+                background-color: #219150;
+        }
+        .hero{
+
+                width: 100%;
+                height: 400px;
+                background-size: cover;
+                background-position: center;
+                transition: bacground-image 1s ease-in-out;  /*for fade effect*/
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+        .hero {
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                animation: slider 12s infinite;
+                padding: 20px;
+                text-align: center;
+               padding-top: 80px;
+        }
+        .hero {
+                position: relative;
+                color: white;
+
+        }
+
+        .hero ::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0 ,0);
+
+        }
+*/
+        /* need to add javascript for better effect and experiance now its run on only css and html*/
+
+/*      .hero h1, .hero p, .hero a{
+                position: relative;
+        }        
+
+                                /*slider animation css part for hero/*
+                        @keyframes slider {
+                         0%{
+                                background-image: 
+                        url("Images/sl-img2.png");
+                        }
+                         33%{
+                                background-image:
+                        url("Images/2.jpeg");
+                        }
+                         66%{
+                                background-image:
+                        url("Images/3.jpeg");
+                        }
+                         100%{
+                                background-image:
+                        url("Images/4.jpg");
+                        
+                        }       
+                        }
+
+
+
+
+
+        .hero{
+                transition: backgroung-image 1s ease-in-out;
+     }/*
+/* HERO CSS ENDS HERE*/
+
+
+
+
+/* contact form start here*/
+
+
+.contact-form{
+                width: 350px;
+                margin: 0 auto;
+                text-align: left;
+                background: white;
+                padding: 25px;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.contact-form input,
+.contact-form textarea{
+        width: 100px;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px ;
+}
+
+.contact-form button{
+        background: #2c7be5;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        cursor: pointer;
+}
+
+
+
+.contact-form button:hover{
+
+        background: #1a5edb;
+}
+
+/* service boc start here*/
+
+        .services {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 20px;
+        }
+        .service-title{
+
+                 text-align: center;
+                 font-size: 32px;
+                 margin-bottom: 40px;
+                 color: black;
+                 position: relative;
+                
+
+                }
+
+        .service-title::after{
+                content: "";
+                width: 80px;
+                height: 3px;
+                background: rgb(177, 54, 75);
+                display: block;
+                margin: 10px auto;
+
+        }       
+
+
+        .service-box{
+               
+                
+                background: white;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                transition: 0.3s;
+
+                }
+
+        .service-box img {
+
+                width: 60px;
+                transition: 0.3s;
+                }
+        .service-box:hover img {
+
+                transform: scale(1.2) rotate(5deg);
+                transform: translate(-5px);
+                } 
+        .service-box:hover{
+                background: white;
+                transform: translateY(-10px);
+                box-shadow: 0 4px 10px
+                        rgb(0, 0, 0,0.1)
+        } 
+
+
+
+
+
+       
+
+/* CONTACT US CSS START*/
+
+        .contact{
+
+                background-color: #f2f2f2;
+                color: black;
+                padding: 40px;
+                text-align: right;
+                margin-top: 10;
+               
+        }
+        .contact p{
+
+                color: black;
+                margin-top: 0;
+                
+        }
+
+/*CONTACT US SECTION ENDS HERE*/
+
+
+
+
+
+
+        
+        
+       
+        
+
+
+
+
+        .why{
+                color: white;
+                background: rgb(0, 0, 0);
+                padding: 60px 20px;
+                text-align: center;
+        }
+        
+                
+        
+        .contact{
+
+                background: black;
+                color: white;
+                text-align: center;   
+                padding: 60x 20x;
+                
+        
+        }
+        .contact p{
+                color: white;
+                text-align: center;
+                padding: 10px 20px;
+                font-size: 30px;
+        }
+        .whatsapp-btn{
+                background: #27ae60;
+                color: white;
+                padding: 12px 25px;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                cursor: pointer;
+
+
+        }
+
+        .whatsapp-btn:hover{
+
+
+                background: #1ebe5d;
+                transform: scale(1.05);
+        }

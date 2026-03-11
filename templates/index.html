@@ -1,0 +1,207 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Extremecomputers.in</title>
+
+        <link rel="stylesheet"
+        href="{% static 'style.css' %}">
+      </head>
+
+
+    <body>
+       <div class="container">
+         <div class="hero" id ="hero">
+               <div class="overlay">
+                 <h1>Extreme Computers</h1>
+                        <p>Fast Laptop and Desktop repair services | Door step service available</p>
+                          <a href="https://wa.me/917822027514"> contact on whatsapp</a>
+               </div>
+        </div>
+        </div>
+
+
+
+
+
+
+<h2 class="service-title">Our Services</h2>
+      
+   <section class="services">
+         <div class="service-box">
+             <img src="{% static 'pngs/laptop.png' %}"> 
+             <h3>Laptop Repair</h3>
+         </div>
+            
+   
+         
+
+         <div class="service-box">
+               <img src="{% static 'pngs/computer.png'%}">
+               <h3>Desktop Repair</h3>
+         </div>
+
+
+         <div class="service-box">
+                <img src="{% static 'pngs/camera.png'%}">
+               <h3>CCTV Installation and Services</h3>
+         </div>
+
+    <div class="service-box">
+       <img src="" alt="Laptop">
+       <h3>demo</h3>
+    </div>
+
+
+    
+    <div class="service-box">
+       <img src="{% static 'pngs/spare.png'%}">
+       <h3>Old Laptop and sparepart replace and sales</h3>
+    </div>
+
+
+
+    <div class="service-box">
+       <img src="{% static 'pngs/antivirus.png'%}">              
+
+       <h3>OS And Antivirus Installation</h3>
+    </div>
+
+
+      <div class="service-box">
+       <img src="{% static 'pngs/antivirus.png'%}">              
+
+       <h3>OS And Antivirus Installation</h3>
+    </div>
+
+
+      <div class="service-box">
+       <img src="{% static 'pngs/antivirus.png'%}">              
+
+       <h3>OS And Antivirus Installation</h3>
+    </div>
+
+   </section>
+
+
+        
+
+
+
+
+
+        
+{% if messages %}
+        {% for message in messages %}
+            <p style="color: green;">{{message}}</p>
+        {% endfor %}
+{% endif %}
+<form method="POST" action="/contact">
+{% csrf_token %}
+
+<section class="contact"> <p>please fill the form below for your query</p>
+
+<br><label>Name</label>
+<input type="name" name="name">
+<br>
+
+
+<label>Email</label>
+<input type="email" name="email"> 
+<br>
+
+
+<label>Phone</label>
+<input type="text" name="phone"> 
+<br>
+
+
+<br><label>Message</label>
+<textarea name="message"></textarea><br>
+<br>
+ 
+<button type="submit">send</button>
+
+</form>
+</section>
+
+<section class="brands">
+
+ <div class="brand-row">
+            <img src="{% static 'brands logo/brand1.png'%}" alt="HP">
+            <img src="{% static 'brands logo/brand2.png'%}" alt="DELL">
+            <img src="{% static 'brands logo/brand3.png'%}" alt="LENOVO">
+            <img src="{% static 'brands logo/brand4.png'%}" alt="ACER">
+            <img src="{% static 'brands logo/brand5.png'%}" alt="MACBOOK">
+            <img src="" alt="SAMSUNG">
+            <img src="" alt="ASUS">
+            
+         </div>
+
+</section>   
+
+<section class="why">
+      <h2>why choose us</h2>
+
+      <div class="why-gird">
+         
+         <div class="why-box">   
+            <h1> Expert Technicians </h1>
+         </div>
+
+          <div class="why-box">   
+            <h1>Fast Repair </h1>
+         </div>
+
+          <div class="why-box">   
+            <h1> Genuine parts </h1>
+         </div>
+
+          <div class="why-box">   
+            <h1> Friendly Support </h1>
+         </div>
+</section>   
+    
+
+
+
+
+<section class = "contact">
+      <p>your system have one option Extreme computer</p>
+         <h2>contact us</h2>
+             <h3>9270796077</h3>
+          
+
+   <button class="whatsapp-btn">
+
+      chat on whatsapp
+
+   </button>
+
+
+</section>
+
+
+
+
+
+
+
+
+<script 
+src="{% static 'script.js'%}">
+
+
+</script>
+
+
+
+</body>
+
+
+
+</html >
+
+
+    
